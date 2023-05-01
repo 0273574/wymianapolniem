@@ -393,6 +393,7 @@ footer .nic {
     transition: transform 0.3s;
     border-radius: 15px;
     margin: 10px;
+    object-fit: cover;
     
 }
 .thumbnail:hover{
@@ -705,6 +706,7 @@ a {
 
 .text-center {
     text-align: center;
+    margin: 40px;
 
 }
 
