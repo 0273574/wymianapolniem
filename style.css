@@ -836,9 +836,7 @@ a {
 
 .card .info h1 {
     margin: 0;
-    animation-name: SlideFromLeft ;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
+    
 }
 
 .card .info p {
