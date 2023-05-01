@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gallery | nazwawymiany </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="backgroundd">
+    <nav>
+      <a href="index.html"><img src="logo.svg" class="logo"></a>
+      <div class="nav-links" id="nav-Links">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html" class="active">HOME</a></li>
+          <li><a href="index.html">PROJECT</a></li>
+          <li><a href="index.html">PLACES</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+  </div>
+  <div class="galler1">
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    
+    
+
+  </div>
+  <div class="galler1">
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    
+    
+
+  </div>
+  <div class="galler1">
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    
+    
+
+  </div>
+  <div class="galler1">
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
+    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
+    
+    
+
+  </div>
+  
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>zsti<b><span>GLIWICE</span></b></h3>
+      <a href="polityka.html">
+        <p class="privacy">Privacy Policy</p>
+      </a>
+      <p class="footer-company-name">Copyright by ZSTI GLIWICE © 2023</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>44-100 Gliwice</span> ul. Chorzowska 5</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>tel./fax (48) 32 230 68 31</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:szkola@zsti.gliwice.pl">szkola@zsti.gliwice.pl</a></p>
+      </div>
+
+
+
+  </footer>
+  <div class="loader"></div>
+  <script>
+    window.addEventListener("load", () => {
+      const loader = document.querySelector(".loader");
+
+      loader.classList.add("loader--hidden");
+
+      loader.addEventListener("transitionend", () => {
+        document.body.removeChild(loader);
+      });
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/ab47c56c0a.js" crossorigin="anonymous"></script>
+  <script>
+    var navLinks = document.getElementById("nav-Links")
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+
+    }
+  </script>
+  
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Policy | nazwawymiany</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+    <div class="header">
+        <nav>
+            <a href="index.html"><img src="logo.svg" class="logo"></a>
+            <div class="nav-links" id="nav-Links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <li><a href="index.html">PROJECT</a></li>
+                    
+                    <li><a href="index.html">PLACES</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="policy">
+            <b><h1>Polityka prywatności</h1></b>
+        <h3>1. Definicje</h3>
+        <p>Serwis – strona internetowa znajdująca się pod adresem:  </p>
+        <p>Operator – administrator Serwisu: </p>
+        <p>Użytkownik – osoba korzystająca z Serwisu</p>
+        
+        <h3> Informacje ogólne</h3>
+        <p>Serwis to miejsce reprezentujące w sieci działalność Zespołu Szkół Techniczno-Informatycznych na tle wymiany międzynarodowej klasy 2I.</p>
+        
+        <b><p>Niniejsza Polityka Prywatności opisuje zasady postępowania z danymi osobowymi oraz wykorzystywania plików cookies i innych technologii w Serwisie. <br>Korzystanie z Serwisu oznacza akceptację warunków określonych w tym dokumencie.</p></b>
+
+        <h3>3. Dostępność</h3>
+        <p>Serwis można przeglądać na każdym urządzeniu z dostępem do Internetu za pomocą jakiejkolwiek przeglądarki internetowej, aczkolwiek zalecane jest przez Operatora korzystanie z najnowszej wersji tego oprogramowania.</p>
+        
+        <h3>4. Przetwarzanie danych, profilowanie</h3>
+        <p>Serwis oferuje otwarty dostęp do zgromadzonych w nim wpisów, bez potrzeby zakładania przez Użytkownika własnego konta w Serwisie, które wymagałoby podania danych osobowych.</p>
+        
+        <p>W razie wątpliwości co do któregokolwiek z zapisów niniejszej Polityki Prywatności zachęcamy do kontaktu z Operatorem. Użytkownikowi (zgodnie z rozporządzeniem RODO) zawsze przysługuje także możliwość wniesienia skargi do organu nadzorczego (w Polsce jest to Urząd Ochrony Danych Osobowych, w skrócie: UODO).</p>
+        
+        <p>Operator zastrzega sobie prawo do zmian w Polityce Prywatności, jeżeli wymagać będzie tego rozwój technologii internetowej, ewentualne zmiany prawa w zakresie ochrony danych osobowych oraz rozwój Serwisu o ewentualne nowe funkcjonalności. O wszelkich zmianach Operator będzie informować w sposób widoczny i zrozumiały.</p>
+        
+        <h3>5. Wyłączenia odpowiedzialności</h3>
+        <p>W Serwisie mogą pojawiać się linki do innych stron internetowych. Takie strony internetowe działają niezależnie od Serwisu i najczęściej nie są w żaden sposób nadzorowane przez Operatora. Strony te mogą posiadać własne polityki dotyczące prywatności oraz regulaminy, z którymi Operator zaleca się zapoznać.
+        
+        Operator nie ponosi odpowiedzialności za ewentualne szkody Użytkownika, powstałe na skutek korzystania z Serwisu.
+        
+        Operator dokłada nieustannej staranności, aby prowadzony przez niego Serwis był wolny od błędów i usterek zagrażających Użytkownikom, jednak nie może zagwarantować, że takowe nigdy nie powstaną.</p>
+
+        </div>
+    </div>
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <a href="index.html"><img src="logo.svg" class="footer-logo"></a>
+        
+        <p class="footer-company-name"> Copyright by ZSTI GLIWICE © 2023</p>
+        <a href="polityka.html"><p class="privacy">Privacy Policy</p></a>
+      </div>
+
+      <div class="footer-center">
+          
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>44-100 Gliwice</span> ul. Chorzowska 5</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>tel./fax (48) 32 230 68 31</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:szkola@zsti.gliwice.pl">szkola@zsti.gliwice.pl</a></p>
+        </div>
+
+      </div>
+  
+        
+       
+  
+      </footer>
+    <div class="loader"></div>
+     <script>
+      window.addEventListener("load", () => {
+          const loader = document.querySelector(".loader");
+
+          loader.classList.add("loader--hidden");
+
+          loader.addEventListener("transitionend", () => {
+          document.body.removeChild(loader);
+          });
+      });
+    </script>
+      <script src="https://kit.fontawesome.com/ab47c56c0a.js" crossorigin="anonymous"></script>
+      <script>
+        var navLinks = document.getElementById("nav-Links")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+<body>
+    
+</body>
+</html>
