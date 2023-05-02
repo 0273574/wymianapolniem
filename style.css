@@ -949,3 +949,12 @@ a {
         transform: translateX(0);
     }
 }
+.galler1 {
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+.item {
+    width: 100%;
+}

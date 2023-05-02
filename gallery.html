@@ -27,50 +27,42 @@
     </nav>
   </div>
   <div class="galler1">
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    
-    
+    <img class="item" src="katowice.jpg">
+    <img class="item" src="about.jpg">
+    <img class="item" src="katowicemuzeum.jpg">
+    <img class="item" src="banner.png">
+    <img class="item" src="banner2.jpg">
+    <img class="item" src="background.jpg">
+    <img class="item" src="katowice.jpg">
+    <img class="item" src="about.jpg">
+    <img class="item" src="katowicemuzeum.jpg">
+    <img class="item" src="banner.png">
+    <img class="item" src="banner2.jpg">
+    <img class="item" src="background.jpg">
+    <img class="item" src="katowice.jpg">
+    <img class="item" src="about.jpg">
+    <img class="item" src="katowicemuzeum.jpg">
+    <img class="item" src="banner.png">
+    <img class="item" src="banner2.jpg">
+    <img class="item" src="background.jpg">
+    <img class="item" src="katowice.jpg">
+    <img class="item" src="about.jpg">
+    <img class="item" src="katowicemuzeum.jpg">
+    <img class="item" src="banner.png">
+    <img class="item" src="banner2.jpg">
+    <img class="item" src="background.jpg">
+    <img class="item" src="katowice.jpg">
+    <img class="item" src="about.jpg">
+    <img class="item" src="katowicemuzeum.jpg">
+    <img class="item" src="banner.png">
+    <img class="item" src="banner2.jpg">
+    <img class="item" src="background.jpg">
+
+
 
   </div>
-  <div class="galler1">
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    
-    
 
-  </div>
-  <div class="galler1">
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    
-    
 
-  </div>
-  <div class="galler1">
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="katowice.jpg" width="500" height="300"></li>
-    <li class="thumbnail"><img src="about.jpg" width="500" height="300"></li>
-    
-    
-
-  </div>
-  
   <footer class="footer-distributed">
 
     <div class="footer-left">
@@ -125,7 +117,22 @@
 
     }
   </script>
-  
+  <script>
+    const msnry = new Macy({
+      container: '.galler1',
+      mobileFirst: true,
+      columns: 1,
+      breakAt: {
+        400: 2,
+        700: 3,
+        1100: 4,
+      },
+      margin: {
+        x: 20,
+        y: 20,
+      }
+    })
+  </script>
 </body>
 
 </html>
