@@ -18,7 +18,7 @@ html {
     width: 100%;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(tlo.avif);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(background.jpg);
     
 
 }
