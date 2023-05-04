@@ -8,9 +8,7 @@ html {
     padding: 0;
     margin: 0;
     font-family: 'Poppins';
-    
-
-}
+    }
 
 
 .header {
@@ -19,8 +17,6 @@ html {
     background-size: cover;
     position: relative;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(background.jpg);
-    
-
 }
 
 nav {
@@ -28,7 +24,6 @@ nav {
     padding: 2% 3%;
     justify-content: space-between;
     align-items: center;
-
 }
 
 nav img {
@@ -38,7 +33,6 @@ nav img {
 .nav-links {
     flex: 1;
     text-align: right;
-
 }
 
 .nav-links ul li {
@@ -58,7 +52,6 @@ nav img {
 
 .nav-links ul li a:hover {
     color: #D9BE59;
-
 }
 
 .nav-links ul li::after {
@@ -73,10 +66,7 @@ nav img {
 
 .nav-links ul li:hover::after {
     width: 100%;
-
 }
-
-
 
 
 .text-box {
@@ -88,21 +78,16 @@ nav img {
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 80px;
-
-
 }
 
 .text-box h1 {
     font-size: 80px;
     font-weight: 600;
-
 }
 
 .text-box p {
-
     font-size: 14px;
     color: #fff;
-
 }
 
 .text-box span {
@@ -110,7 +95,6 @@ nav img {
     font-size: 40px;
     font-weight: 300;
     margin: 0;
-
 }
 
 .read-btn {
@@ -126,11 +110,9 @@ nav img {
 }
 
 .read-btn:hover {
-
     border: 1px solid #fff;
     background: #D9BE59;
     transition: 1s;
-
 }
 
 nav .fa-solid {
@@ -262,6 +244,7 @@ nav .fa-solid {
         flex-direction: column;
     }
 }
+
 .wraper{
     display: flex;
     flex-direction: column;
@@ -277,13 +260,10 @@ nav .fa-solid {
     cursor: pointer;
     transition: 0.2s ease-in-out;
     border-radius: 15px;
-
 }
 
 .text-box a:hover {
-    
     box-shadow: 0px 7px 10px rgba(217, 190, 89, 1);
-
 }
 .container{
     position: absolute;
@@ -319,7 +299,6 @@ nav .fa-solid {
     width: 100%;
     margin-bottom: 5%;
     padding: 2% 6%;
-
 }
 
 .placer-col {
@@ -329,10 +308,7 @@ nav .fa-solid {
     text-align: left;
     margin: 5px;
     transform: translate(-15%);
-
 }
-
-
 
 .placer-col p {
     padding: 0;
@@ -375,7 +351,6 @@ footer .nic {
     justify-content: space-evenly;
     list-style-type: none;
     margin: 50px;
-    
 }
 .gallery{
     min-height: 100vh;
@@ -394,7 +369,6 @@ footer .nic {
     border-radius: 15px;
     margin: 10px;
     object-fit: cover;
-    
 }
 .thumbnail:hover{
 transform: scale(1.1);
@@ -410,15 +384,11 @@ transform: scale(1.1);
     border-radius: 5px;
     border: none;
     cursor: pointer;
-
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-
-
 }
 
 .gallery a:hover {
     animation: rotate 0.5s linear;
-
 }
 
 @keyframes rotate {
@@ -440,7 +410,6 @@ transform: scale(1.1);
     min-height: 100vh;
     text-align: center;
     justify-content: center;
-
 }
 
 
@@ -455,7 +424,6 @@ transform: scale(1.1);
 p,
 h1 {
     margin: 15px;
-
 }
 
 .galler-text {
@@ -468,12 +436,10 @@ h1 {
     margin: 50px;
     color: #fff;
     text-align: left;
-
 }
 
 .policy p {
     margin: 2px;
-
 }
 
 .footer-distributed {
@@ -590,12 +556,10 @@ h1 {
     cursor: pointer;
     background-color: #33383b;
     border-radius: 2px;
-
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
-
     margin-right: 3px;
     margin-bottom: 5px;
 }
@@ -693,7 +657,6 @@ a {
 .main-text p {
     margin: 0;
     color: black;
-
 }
 
 .main-text img {
@@ -707,7 +670,6 @@ a {
 .text-center {
     text-align: center;
     margin: 40px;
-
 }
 
 .text-center p {
@@ -715,7 +677,6 @@ a {
     font-size: 20px;
     margin: auto;
     margin-bottom: 200px;
-
 }
 
 
@@ -769,8 +730,6 @@ a {
     width: 100%;
     justify-content: space-around;
     margin-bottom: 30px;
-
-
 }
 
 
@@ -805,7 +764,6 @@ a {
 
 .card:hover:before {
     opacity: 1;
-
 }
 
 .card img {
@@ -816,7 +774,6 @@ a {
     top: 0;
     left: 0;
     border-radius: 10px;
-
 }
 
 .card .info {
@@ -826,7 +783,6 @@ a {
     opacity: 0;
     transform: translateY(30px);
     transition: 0.5s all;
-
 }
 
 .card:hover .info {
@@ -861,8 +817,6 @@ a {
 .card .info .btn:hover {
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 }
-
-
 
 .opis {
     min-height: 100vh;
@@ -914,14 +868,12 @@ a {
     display: flex;
     flex-direction: wrap;
     margin: 20px;
-
 }
 
 .tekst p{
     letter-spacing: 1px;
     font-size: 15px;
     font-weight: 600;
-    
 }
 .powrot i{
     position: relative;
