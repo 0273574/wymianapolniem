@@ -915,6 +915,7 @@ a {
 .tekst {
     display: flex;
     flex-direction: wrap;
+    text-align: center;
     margin: 20px;
 }
 
