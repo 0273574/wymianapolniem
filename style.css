@@ -677,8 +677,11 @@ a {
     }
 
 }
-.flagi img {
+.flagi a {
     padding: 50px;
+   
+}
+.flagi img{
     border-radius: 10px;
 }
 .backgroundd {
