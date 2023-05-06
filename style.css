@@ -656,7 +656,10 @@ a {
     .tekst1 p{
         font-size: 8px;
     }
-   
+   .h1{
+    font-size: 20px;
+    font-weight: 600;
+   }
 
 }
 
