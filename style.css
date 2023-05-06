@@ -656,10 +656,7 @@ a {
     .tekst1 p{
         font-size: 8px;
     }
-   .h1{
-    font-size: 20px;
-    font-weight: 300;
-   }
+   
 
 }
 
@@ -926,8 +923,4 @@ a {
 .tekst1{
     text-align: center;
     margin: 20px;
-}
-.h1{
-    font-size: 40px;
-    font-weight: 600;
 }
