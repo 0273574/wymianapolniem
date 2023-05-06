@@ -677,7 +677,7 @@ a {
     }
 
 }
-.flagi a img{
+.flagi a {
     padding: 50px;
     border-radius: 10px;
 }
