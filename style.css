@@ -19,6 +19,7 @@ html {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(background.jpg);
 }
 
+
 nav {
     display: flex;
     padding: 2% 3%;
@@ -239,6 +240,9 @@ nav .fa-solid {
     .text-center p{
         font-size: 15px;
         font-weight: 300;
+    }
+    .header1{
+        margin: 0;
     }
 }
 
