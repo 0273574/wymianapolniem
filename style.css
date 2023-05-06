@@ -901,3 +901,7 @@ a {
         transform: translateX(0);
     }
 }
+.tekst1{
+    text-align: center;
+    margin: 20px;
+}
