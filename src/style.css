@@ -906,9 +906,11 @@ a {
 }
 .tekst img{
     border-radius: 5px;
+    margin-top: 20px
 }
 .tekst1 img{
     border-radius: 5px;
+    
 }
 .tekst {
     display: flex;
