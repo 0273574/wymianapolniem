@@ -642,6 +642,20 @@ a {
     .tekst p{
         font-size: 8px;
     }
+    .tekst1{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        vertical-align: center;
+    }
+    .tekst1 img{
+        margin-left: 25%;
+        height: 50%;
+        width: 50%;
+    }
+    .tekst1 p{
+        font-size: 8px;
+    }
    
 
 }
