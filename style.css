@@ -818,6 +818,7 @@ a {
 }
 
 .card .info .btn {
+    margin-left: 60px;
     text-decoration: none;
     padding: 0.5rem 1rem;
     background: #fff;
