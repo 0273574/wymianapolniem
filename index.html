@@ -413,7 +413,7 @@
             if (slideIndex >= galleryWrapper.children.length) {
                 slideIndex = 0;
             }
-            galleryWrapper.style.transform = `translateX(-${slideIndex * 70}%)`;
+            galleryWrapper.style.transform = `translateX(-${slideIndex * 50}%)`;
         }
 
         function prevSlide() {
@@ -421,21 +421,21 @@
             if (slideIndex < 0) {
                 slideIndex = galleryWrapper.children.length - 1;
             }
-            galleryWrapper.style.transform = `translateX(-${slideIndex * 70}%)`;
+            galleryWrapper.style.transform = `translateX(-${slideIndex * 50}%)`;
         }
 
-        let autoSlide = setInterval(nextSlide, 2000);
+        let autoSlide = setInterval(nextSlide, 4000);
 
         galleryNext.addEventListener('click', () => {
             clearInterval(autoSlide);
             nextSlide();
-            autoSlide = setInterval(nextSlide, 2000);
+            autoSlide = setInterval(nextSlide, 4000);
         });
 
         galleryPrev.addEventListener('click', () => {
             clearInterval(autoSlide);
             prevSlide();
-            autoSlide = setInterval(nextSlide, 2000);
+            autoSlide = setInterval(nextSlide, 4000);
         });
 
     </script>
