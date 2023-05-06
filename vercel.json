@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/polityka",
+        "destination": "/polityka.html"
+      }
+    ]
+  }
+  
