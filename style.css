@@ -652,6 +652,7 @@ a {
         margin-left: 25%;
         height: 50%;
         width: 50%;
+        border-radius: 5px;
     }
     .tekst1 p{
         font-size: 8px;
@@ -877,7 +878,12 @@ a {
 .gallery-controls button:hover {
     color: gray;
 }
-
+.tekst img{
+    border-radius: 5px;
+}
+.tekst1 img{
+    border-radius: 5px;
+}
 .tekst {
     display: flex;
     flex-direction: wrap;
