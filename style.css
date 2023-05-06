@@ -222,14 +222,7 @@ nav .fa-solid {
         height: 150px;
     }
 
-    .text-center p {
-        font-size: 1px;
-        margin-bottom: 0px;
-    }
-    .text-center  {
-        font-size: 1px;
-        margin-bottom: 0px;
-    }
+    
     .wraper{
         flex-direction: column;
         }
@@ -689,7 +682,7 @@ a {
 
 .text-center p {
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 15px;
     margin: auto;
     margin-bottom: 200px;
 }
