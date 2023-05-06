@@ -662,7 +662,12 @@ a {
         margin: 10px;
         margin-bottom: 0;
     }
-   
+    .gallery-wrapper img {
+        width: 70%;
+    }
+    .gallery-controls {
+        width: 70%;
+    }
 
 }
 
