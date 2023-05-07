@@ -672,10 +672,10 @@ a {
     }
     .text-center p {
         letter-spacing: 1px;
-        font-size: 10px;
-        font-weight: 500;
+        font-size: 50px;
+        font-weight: 200;
         margin: auto;
-        margin-bottom: 200px;
+        
     }
     .flagi{
         display: none;
