@@ -675,6 +675,9 @@ a {
         margin: auto;
         margin-bottom: 200px;
     }
+    .flagi a{
+        padding: 20px;
+    }
 
 }
 .flagi a {
