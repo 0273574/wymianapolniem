@@ -678,18 +678,12 @@ a {
         margin-bottom: 200px;
     }
     .flagi{
-        margin-left: 10px;
+        margin-left: 0;
     }
     .flagi a{
         padding: 20px;
     }
-    .flagi img{
-        width: 50%;
-        height: 50%;
-    }
-    .text-center{
-        margin: 10px;
-    }
+    
 
 }
 .flagi a {
