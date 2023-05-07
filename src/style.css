@@ -652,7 +652,7 @@ a {
         vertical-align: center;
     }
     .tekst1 img{
-        margin-left: 10%;
+        margin-left: 0;
         height: 50%;
         width: 50%;
         border-radius: 5px;
