@@ -131,7 +131,9 @@ nav .fa-solid {
         width: 150px;
         height: 115px;
     }
-
+    .main-text{
+        margin: 10px;
+    }
     .obrazkii {
         display: inline;
     }
