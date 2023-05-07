@@ -678,10 +678,7 @@ a {
         margin-bottom: 200px;
     }
     .flagi{
-        margin-left: 0;
-    }
-    .flagi a{
-        padding: 20px;
+        display: none;
     }
     
 
