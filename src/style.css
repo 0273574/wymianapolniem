@@ -686,6 +686,11 @@ a {
     
 
 }
+@media (max-width: 600px){
+    .flagi{
+        padding-left: 0;
+    }
+}
 .flagi a {
     padding: 50px;
    
