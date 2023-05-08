@@ -855,6 +855,7 @@ a {
 }
 
 .card .info .btn {
+    border-radius: 10px;
     margin-left: 100px;
     text-decoration: none;
     padding: 0.5rem 1rem;
