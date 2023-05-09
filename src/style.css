@@ -113,7 +113,7 @@ nav img {
 .read-btn:hover {
     border: 1px solid #fff;
     background: #D9BE59;
-    transition: 1s;
+    transition: 2s;
 }
 
 nav .fa-solid {
