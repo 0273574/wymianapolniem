@@ -109,17 +109,14 @@ nav img {
     position: relative;
     cursor: pointer;
 }
-
 .read-btn:hover {
     border: 1px solid #fff;
     background: #D9BE59;
     transition: 2s;
 }
-
 nav .fa-solid {
     display: none;
 }
-
 .text-box p {
     font-size: 80px;
     font-weight: 600;
@@ -262,7 +259,7 @@ nav .fa-solid {
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
+    transition: 1s ease-in-out;
     border-radius: 15px;
 }
 
