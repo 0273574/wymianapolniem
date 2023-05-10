@@ -820,7 +820,7 @@ a {
 .card:hover:before {
     opacity: 1;
 }
-.card:hover{
+.card:hover::before{
     box-shadow: 0px 14px 20px rgba(217, 190, 89, 1);
 }
 .card img {
