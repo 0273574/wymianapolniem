@@ -682,7 +682,7 @@ a {
 }
 @media (max-width: 600px){
     .flagi{
-        padding-left: 0;
+        transform: translateX(-2.1rem);
     }
 }
 
