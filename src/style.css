@@ -821,7 +821,7 @@ a {
     opacity: 1;
 }
 .card:hover{
-
+    box-shadow: 0px 14px 20px rgba(217, 190, 89, 1);
 }
 .card img {
     width: 100%;
