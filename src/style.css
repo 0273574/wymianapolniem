@@ -955,7 +955,6 @@ a {
     }
 }
 .tekst1{
-    display: inline;
-    
+    text-align: center;
     margin: 20px;
 }
