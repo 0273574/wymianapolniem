@@ -682,11 +682,12 @@ a {
 }
 @media (max-width: 600px){
     .flagi{
+        padding: 0px;
         transform: translateX(-2.1rem);
     }
 }
 .flagi a{
-    padding: 50px;
+    padding: 70px;
 }
 .flagi img{
     border-radius: 10px;
