@@ -842,7 +842,7 @@ a {
 
 .card:hover .info {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(-10px);
 }
 
 .card .info h1 {
