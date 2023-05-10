@@ -281,10 +281,17 @@ nav .fa-solid {
 }
 
 .places {
+    color: #fff;
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 75px;
+}
+.places h1{
+    color: #ffffff;
+}
+.places p{
+    color: #ffffff;
 }
 
 .cosik {
