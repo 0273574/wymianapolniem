@@ -685,7 +685,9 @@ a {
         transform: translateX(-2.1rem);
     }
 }
-
+.flagi a{
+    padding: 50px;
+}
 .flagi img{
     border-radius: 10px;
 }
