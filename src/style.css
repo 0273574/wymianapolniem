@@ -295,7 +295,7 @@ nav .fa-solid {
 }
 
 .cosik {
-    background: #0e1d47;
+    background:linear-gradient(45deg, red, blue);;
     
     width: 100%;
     min-height: 100vh;
