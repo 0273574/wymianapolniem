@@ -925,10 +925,7 @@ a {
     border-radius: 5px;
     margin-top: 20px
 }
-.tekst1 img{
-    border-radius: 15px;
-    
-}
+
 .tekst {
     display: flex;
     flex-direction: wrap;
@@ -966,9 +963,11 @@ a {
 .tekst1{
     margin-top: 60px;
     text-align: center;
+    justify-content: space-around;
+    display: flex;
     
 }
 .tekst1 img{
-    padding: 50px;
+    
     border-radius: 15px;
 }
