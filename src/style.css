@@ -275,7 +275,10 @@ nav .fa-solid {
     flex-direction: column;
 
 }
-
+.gallery {
+    width: 80%;
+    margin: 50px auto;
+}
 
 
 .item {
