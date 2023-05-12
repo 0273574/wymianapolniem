@@ -434,7 +434,8 @@ footer .nic {
     margin-top: 25px;
 }
 
-.gallery a:hover {
+.gallery a:hover, .gallery a:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #ffa260;
     transform: translateY(-0.25em);
 }
 
