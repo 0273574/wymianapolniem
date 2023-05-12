@@ -654,7 +654,12 @@ a {
     .tekst p{
         font-size: 8px;
     }
+    .tekst1{
+        flex-direction: column;        
+    }
+
     .tekst1 img{
+        margin-top: 5px;
         height: 50%;
         width: 50%;
     }
