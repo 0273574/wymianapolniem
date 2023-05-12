@@ -419,22 +419,47 @@ footer .nic {
 
 }
 
-
 .gallery a {
-    color:#000;
-    text-decoration: none;
-    background: none;
-  border: 2px solid;
-  line-height: 1;
-  margin: 0.5em;
-  padding: 1em 2em;
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  .gallery a{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .gallery a::after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .gallery a:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .gallery a:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
 
-    margin-top: 60px;
-}
-
-.gallery a:hover, .gallery a:focus {
-    box-shadow: inset 0 -3.25em 0 0 #e4cb58;
-}
 
 
 
