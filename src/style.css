@@ -275,6 +275,15 @@ nav .fa-solid {
     flex-direction: column;
 
 }
+.galler1 {
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+.item {
+    width: 100%;
+}
 
 .text-box a {
     text-decoration: none;
