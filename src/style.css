@@ -467,6 +467,7 @@ h1 {
 }
 
 .galler-text {
+    margin-top: 50px;
     color: #fff;
     text-align: center;
     justify-content: space-between;
