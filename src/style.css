@@ -680,9 +680,9 @@ a {
     }
     .text-center p {
         letter-spacing: 1px;
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 200;
-        margin: auto;
+        
         
     }
     
@@ -728,7 +728,7 @@ a {
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: 500;
-    margin: auto;
+    
     margin-bottom: 80px;
 }
 
