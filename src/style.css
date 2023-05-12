@@ -265,7 +265,9 @@ nav .fa-solid {
         margin: 0;
     }
 }
-
+.gallery img{
+    border-radius: 15px;
+}
 .wraper {
     display: flex;
     flex-direction: column;
