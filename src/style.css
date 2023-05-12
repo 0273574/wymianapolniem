@@ -2,28 +2,30 @@
 
 html {
     scroll-behavior: smooth;
-    
+
 }
+
 body {
     overflow-x: hidden;
-  }
+}
 
 * {
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
     font-family: 'Poppins';
-    }
+}
 
 
-.header{
+.header {
     min-height: 100vh;
     width: 100%;
     background-size: cover;
     position: relative;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("background.jpg");
 }
-.header1{
+
+.header1 {
     background-image: linear-gradient(rgba(63, 63, 63, 0.8) 25%, rgba(3, 2, 3, 0.8)), url("background.jpg");
 }
 
@@ -116,14 +118,17 @@ nav img {
     position: relative;
     cursor: pointer;
 }
+
 .read-btn:hover {
     border: 1px solid #fff;
     background: #D9BE59;
     transition: 2s;
 }
+
 nav .fa-solid {
     display: none;
 }
+
 .text-box p {
     font-size: 80px;
     font-weight: 600;
@@ -135,9 +140,11 @@ nav .fa-solid {
         width: 150px;
         height: 115px;
     }
-    .main-text{
+
+    .main-text {
         margin: 10px;
     }
+
     .obrazkii {
         display: inline;
     }
@@ -151,12 +158,13 @@ nav .fa-solid {
         font-size: 10px;
         padding: 0;
     }
-    .text-box a{
+
+    .text-box a {
         font-size: 7px;
 
     }
 
-    
+
 
     .row .placer-col p {
         display: none;
@@ -230,34 +238,40 @@ nav .fa-solid {
         height: 150px;
     }
 
-    
-    .wraper{
+
+    .wraper {
         flex-direction: column;
-        }
-    .card{
+    }
+
+    .card {
         width: 100%;
     }
-    .gallery-wrapper img{
+
+    .gallery-wrapper img {
         width: 50%;
         height: 80%;
     }
-    .galler1{
+
+    .galler1 {
         flex-direction: column;
     }
-    .text-center p{
+
+    .text-center p {
         font-size: 15px;
         font-weight: 300;
     }
-    .header1{
+
+    .header1 {
         margin: 0;
     }
 }
 
-.wraper{
+.wraper {
     display: flex;
     flex-direction: column;
-    
+
 }
+
 .text-box a {
     text-decoration: none;
     padding: 1rem 2rem;
@@ -273,11 +287,12 @@ nav .fa-solid {
 .text-box a:hover {
     box-shadow: 0px 7px 10px rgba(217, 190, 89, 1);
 }
-.container{
+
+.container {
     position: absolute;
     width: 66%;
     height: 66%;
-    background: linear-gradient(to right top, rgba(0,0,0,0.45), rgba(0,0,0,0.15));
+    background: linear-gradient(to right top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.15));
     border-radius: 15px;
     backdrop-filter: blur(7px);
     margin-left: 16%;
@@ -292,20 +307,22 @@ nav .fa-solid {
     text-align: center;
     padding-top: 75px;
 }
-.places h1{
+
+.places h1 {
     color: #ffffff;
 }
-.places p{
+
+.places p {
     color: #ffffff;
 }
 
 .cosik {
-    background: linear-gradient(30deg, #000000bf,#0e1d47 60%);
-    
+    background: linear-gradient(30deg, #000000bf, #0e1d47 60%);
+
     width: 100%;
     min-height: 100vh;
     padding-bottom: 10px;
-    
+
 
 
 }
@@ -368,14 +385,15 @@ footer .nic {
     list-style-type: none;
     margin: 50px;
 }
-.gallery{
+
+.gallery {
     min-height: 100vh;
     text-align: center;
     margin: 5px;
     border-radius: 5%;
 }
 
-.thumbnail{
+.thumbnail {
     list-style: none;
     max-width: 500px;
     max-height: 300px;
@@ -386,10 +404,12 @@ footer .nic {
     margin: 10px;
     object-fit: cover;
 }
-.thumbnail:hover{
-transform: scale(1.1);
+
+.thumbnail:hover {
+    transform: scale(1.1);
 
 }
+
 .gallery a {
     display: inline-block;
     padding: 10px 20px;
@@ -601,11 +621,13 @@ a {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
+
     .polityka h3,
-p,
-h1 {
-    font-size: 10px;
-}
+    p,
+    h1 {
+        font-size: 10px;
+    }
+
     .footer-distributed {
         font: bold 14px 'Poppins';
     }
@@ -622,7 +644,8 @@ h1 {
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
-    .container{
+
+    .container {
         margin-top: 30px;
         margin-left: 13%;
         width: 76%;
@@ -630,78 +653,93 @@ h1 {
         font-size: 15px;
 
     }
-    .card{
-        height:180px ;
-        width:140px ;
+
+    .card {
+        height: 180px;
+        width: 140px;
     }
-    .card:before{
+
+    .card:before {
         width: 50%;
         height: 50%;
     }
-    .card img{
-    width: 50%;
-    height: 50%;
+
+    .card img {
+        width: 50%;
+        height: 50%;
     }
-    .cosik{
+
+    .cosik {
         display: none;
     }
-    .wrapper{
+
+    .wrapper {
         display: none;
     }
-    .tekst{
+
+    .tekst {
         flex-direction: column;
         text-align: center;
         justify-content: center;
         vertical-align: center;
     }
-    .tekst img{
+
+    .tekst img {
         margin-left: 25%;
         height: 50%;
         width: 50%;
     }
-    .tekst p{
+
+    .tekst p {
         font-size: 15px;
     }
-    .tekst1{
-        flex-direction: column;        
+
+    .tekst1 {
+        flex-direction: column;
     }
 
-    .tekst1 img{
+    .tekst1 img {
         margin-left: 25%;
         margin-top: 15px;
         height: 50%;
         width: 50%;
     }
-    .policy{
+
+    .policy {
         margin: 10px;
         margin-bottom: 0;
     }
+
     .gallery-wrapper img {
         width: 70%;
     }
+
     .gallery-controls {
         width: 70%;
     }
+
     .text-center p {
         letter-spacing: 1px;
         font-size: 10px;
         font-weight: 100;
-        
-        
+
+
     }
-    
+
 
 }
-@media (max-width: 600px){
-    .flagi{
-        
+
+@media (max-width: 600px) {
+    .flagi {
+
         transform: translateX(-2.1rem);
     }
 }
 
-.flagi img{
+.flagi img {
     border-radius: 10px;
 }
+
 .backgroundd {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(background.jpg);
 }
@@ -732,7 +770,7 @@ h1 {
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: 500;
-    
+
     margin-bottom: 80px;
 }
 
@@ -851,7 +889,7 @@ h1 {
 
 .card .info h1 {
     margin: 0;
-    
+
 }
 
 .card .info p {
@@ -924,7 +962,8 @@ h1 {
 .gallery-controls button:hover {
     color: gray;
 }
-.tekst img{
+
+.tekst img {
     border-radius: 5px;
     margin-top: 20px
 }
@@ -936,40 +975,46 @@ h1 {
     margin: 20px;
 }
 
-.tekst p{
-    letter-spacing: 1px;
-    font-size: 15px;
-    font-weight: 300;
-}
-.tekst1 p{
+.tekst p {
     letter-spacing: 1px;
     font-size: 15px;
     font-weight: 300;
 }
 
-@keyframes SlideFromLeft{
+.tekst1 p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+@keyframes SlideFromLeft {
     from {
         transform: translateX(-300px);
     }
-    to{
+
+    to {
         transform: translateX(0);
     }
 }
+
 @keyframes SlideFromRight {
-    from{
+    from {
         transform: translateX(300px);
     }
-    to{
+
+    to {
         transform: translateX(0);
     }
 }
-.tekst1{
+
+.tekst1 {
     margin-top: 60px;
     text-align: center;
     justify-content: space-around;
     display: flex;
-    
+
 }
-.tekst1 img{
+
+.tekst1 img {
     border-radius: 15px;
 }
