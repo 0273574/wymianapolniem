@@ -430,6 +430,7 @@ footer .nic {
     border: none;
     cursor: pointer;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
 }
 
 .gallery a:hover {
