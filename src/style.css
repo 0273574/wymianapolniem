@@ -421,15 +421,13 @@ footer .nic {
 
 
 .gallery a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #D9BE59;
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+    background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+
     box-shadow: 40px -9px teal;   
     margin-top: 25px;
 }
