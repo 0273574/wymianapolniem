@@ -601,7 +601,11 @@ a {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
-
+    .polityka h3,
+p,
+h1 {
+    font-size: 20px;
+}
     .footer-distributed {
         font: bold 14px 'Poppins';
     }
