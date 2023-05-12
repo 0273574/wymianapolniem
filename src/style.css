@@ -275,10 +275,7 @@ nav .fa-solid {
     flex-direction: column;
 
 }
-.galler1 {
-    width: 80%;
-    margin: 50px auto;
-}
+
 
 
 .item {
@@ -391,13 +388,7 @@ footer .nic {
     padding: 5px;
 }
 
-.galler1 {
-    display: flex;
-    flex-wrap: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin: 50px;
-}
+
 
 .gallery {
     background: linear-gradient(10deg, #000000bf 60%, #0e1d47 );
