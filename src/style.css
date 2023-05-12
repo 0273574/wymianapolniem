@@ -654,20 +654,9 @@ a {
     .tekst p{
         font-size: 8px;
     }
-    .tekst1{
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        vertical-align: center;
-    }
     .tekst1 img{
-        margin-left: 0;
         height: 50%;
         width: 50%;
-        border-radius: 5px;
-    }
-    .tekst1 p{
-        font-size: 8px;
     }
     .policy{
         margin: 10px;
