@@ -256,10 +256,7 @@ nav .fa-solid {
         flex-direction: column;
     }
 
-    .text-center p {
-        font-size: 15px;
-        font-weight: 300;
-    }
+    
 
     .header1 {
         margin: 0;
@@ -741,13 +738,7 @@ a {
         width: 70%;
     }
 
-    .text-center p {
-        letter-spacing: 1px;
-        font-size: 10px;
-        font-weight: 100;
-
-
-    }
+    
 
 
 }
@@ -762,7 +753,13 @@ a {
 .flagi img {
     border-radius: 10px;
 }
+.text-center p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 100;
 
+
+}
 .backgroundd {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(background.jpg);
 }
