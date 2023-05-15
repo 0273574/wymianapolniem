@@ -842,7 +842,9 @@ a {
         transform: rotate(1turn);
     }
 }
-
+.glowna h1{
+    font-size: 25px;
+}
 .wrapper {
     display: flex;
     width: 100%;
