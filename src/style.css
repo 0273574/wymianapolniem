@@ -737,7 +737,9 @@ a {
     .gallery-controls {
         width: 70%;
     }
-
+    .tekst1{
+        display: none;
+    }
     
 
 
