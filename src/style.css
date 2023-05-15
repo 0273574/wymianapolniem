@@ -265,6 +265,7 @@ nav .fa-solid {
 .gallery img{
     margin-top: 10px;
     border-radius: 15px;
+    border: solid 5px #fff;
     box-shadow: 2px 2px 2px 1px rgba(217, 190, 89, 1);
     padding: 15px;
 }
