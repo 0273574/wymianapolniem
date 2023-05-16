@@ -719,6 +719,7 @@ a {
         font-size: 15px;
     }
     .tekst1{
+        float: none;
         display: none;
     }
     .tekst1 img {
