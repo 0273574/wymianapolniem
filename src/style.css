@@ -718,7 +718,9 @@ a {
     .tekst p {
         font-size: 15px;
     }
-
+    .tekst1{
+        display: none;
+    }
     .tekst1 img {
         display: none;
     }
