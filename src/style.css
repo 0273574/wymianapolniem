@@ -140,7 +140,9 @@ nav .fa-solid {
         width: 150px;
         height: 115px;
     }
-
+    body{
+        overflow-x: hidden;
+    }
     .main-text {
         margin: 10px;
     }
