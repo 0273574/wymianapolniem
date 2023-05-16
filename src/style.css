@@ -261,6 +261,9 @@ nav .fa-solid {
     .header1 {
         margin: 0;
     }
+    .opis{
+        min-height: 100%;
+    }
 }
 .gallery img{
     margin-top: 10px;
