@@ -720,15 +720,10 @@ a {
     }
 
     .tekst1 {
-        flex-direction: column;
+        display: none;
     }
 
-    .tekst1 img {
-        margin-left: 25%;
-        margin-top: 15px;
-        height: 50%;
-        width: 50%;
-    }
+    
 
     .policy {
         margin: 10px;
@@ -742,9 +737,7 @@ a {
     .gallery-controls {
         width: 70%;
     }
-    .tekst1{
-        display: none;
-    }
+    
     
 
 
