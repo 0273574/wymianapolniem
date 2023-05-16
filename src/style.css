@@ -264,7 +264,7 @@ nav .fa-solid {
         margin: 0;
     }
     .opis{
-        min-height: 100%;
+        height: 100%;
     }
 }
 .gallery img{
