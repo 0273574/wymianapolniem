@@ -447,7 +447,7 @@
             if (slideIndex >= galleryWrapper.children.length) {
                 slideIndex = 0;
             }
-            galleryWrapper.style.transform = `translateX(-${slideIndex * 70}%)`;
+            galleryWrapper.style.transform = `translateX(-${slideIndex * 60}%)`;
         }
 
         function prevSlide() {
@@ -455,7 +455,7 @@
             if (slideIndex < 0) {
                 slideIndex = galleryWrapper.children.length - 1;
             }
-            galleryWrapper.style.transform = `translateX(-${slideIndex * 70}%)`;
+            galleryWrapper.style.transform = `translateX(-${slideIndex * 60}%)`;
         }
 
         let autoSlide = setInterval(nextSlide, 4000);
