@@ -313,13 +313,13 @@ nav .fa-solid {
 
 .text-box a.button:hover {
     opacity: .7;
-    transform: scale(1.05,1.07);
+    transform: scale(1.5,1.5);
     transition-timing-function: ease-out;
     transition-duration: 250ms;
-    -webkit-transform: scale(1.05,1.07);
+    -webkit-transform: scale(1.5,1.5);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-duration: 250ms;
-    -moz-transform: scale(1.05,1.07);
+    -moz-transform: scale(1.5,1.5);
     -moz-transition-timing-function: ease-out;
     -moz-transition-duration: 250ms;
     position: relative;
