@@ -1004,6 +1004,7 @@ a {
 
 .tekst {
     display: flex;
+    justify-content: center;
     flex-direction: wrap;
     text-align: center;
     margin: 20px;
