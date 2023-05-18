@@ -297,7 +297,6 @@ nav .fa-solid {
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-    
     border-radius: 15px;
     opacity: 1;
    
@@ -305,8 +304,6 @@ nav .fa-solid {
 
 .text-box a.button:hover {
     opacity: .8;
-    
-    
 }
 
 
