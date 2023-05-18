@@ -1008,8 +1008,7 @@ a {
     flex-direction: wrap;
     text-align: center;
     margin: 20px;
-    align-items: center;
-  justify-content: center;
+   
 }
 
 .tekst p {
