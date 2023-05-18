@@ -289,7 +289,7 @@ nav .fa-solid {
     width: 100%;
 }
 
-.text-box a {
+.text-box a.button {
     text-decoration: none;
     padding: 1rem 2rem;
     background: #fff;
@@ -311,7 +311,7 @@ nav .fa-solid {
     -moz-transition-duration: 250ms;
 }
 
-.text-box a:hover {
+.text-box a.button:hover {
     opacity: .7;
     transform: scale(1.05,1.07);
     transition-timing-function: ease-out;
