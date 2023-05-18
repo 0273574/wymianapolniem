@@ -304,17 +304,11 @@ nav .fa-solid {
 }
 
 .text-box a.button:hover {
-    opacity: .7;
+    opacity: .8;
     
-    z-index: 99;
+    
 }
-.button {
-    transition: transform 0.3s;
-  }
 
-  .button:hover {
-    transform: scale(1.5);
-  }
 
 .container {
     position: absolute;
