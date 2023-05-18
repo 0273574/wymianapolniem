@@ -767,7 +767,7 @@ a {
     transition: transform 0.3s;
 }
 .flagi img:hover{
-    transform: scale(1.3);
+    transform: scale(1.15);
 }
 .text-center p {
     letter-spacing: 1px;
