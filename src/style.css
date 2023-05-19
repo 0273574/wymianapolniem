@@ -134,6 +134,10 @@ nav .fa-solid {
     font-weight: 600;
 }
 @media(max-width:1500px){
+    .tekst1 img{
+        display: none;
+    }
+    
     .nav-links {
         position: absolute;
         background: #D9BE59;
@@ -186,6 +190,9 @@ nav .fa-solid {
 }
 
 @media(max-width:880px) {
+    #gallery{
+        display: none;
+    }
     .main-text img {
         width: 150px;
         height: 115px;
