@@ -173,6 +173,9 @@ nav .fa-solid {
         font-size: 12px;
 
     }
+    .tekst1{
+        display: none;
+    }
 }
 
 @media(max-width:880px) {
