@@ -91,18 +91,18 @@ nav img {
 }
 
 .text-box h1 {
-    font-size: 80px;
+    font-size: 100%;
     font-weight: 600;
 }
 
 .text-box p {
-    font-size: 12px;
+    font-size: 40%;
     color: #fff;
 }
 
 .text-box span {
     color: #D9BE59;
-    font-size: 40px;
+    font-size: 50%;
     font-weight: 300;
     margin: 0;
 }
