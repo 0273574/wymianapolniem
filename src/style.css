@@ -133,7 +133,47 @@ nav .fa-solid {
     font-size: 80px;
     font-weight: 600;
 }
+@media(max-width:1500px){
+    .nav-links {
+        position: absolute;
+        background: #D9BE59;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        color: #fff;
+    }
 
+    nav .fa-solid {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+
+    }
+    .text-box p {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .text-box span {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .text-box a {
+        font-size: 12px;
+
+    }
+}
 
 @media(max-width:880px) {
     .main-text img {
