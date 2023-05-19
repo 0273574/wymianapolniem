@@ -463,18 +463,18 @@
             galleryWrapper.style.transform = `translateX(-${slideIndex * 100}%)`;
         }
 
-        let autoSlide = setInterval(nextSlide, 4000);
+        let autoSlide = setInterval(nextSlide, 6000);
 
         galleryNext.addEventListener('click', () => {
             clearInterval(autoSlide);
             nextSlide();
-            autoSlide = setInterval(nextSlide, 4000);
+            autoSlide = setInterval(nextSlide, 6000);
         });
 
         galleryPrev.addEventListener('click', () => {
             clearInterval(autoSlide);
             prevSlide();
-            autoSlide = setInterval(nextSlide, 4000);
+            autoSlide = setInterval(nextSlide, 6000);
         });
 
     </script>
