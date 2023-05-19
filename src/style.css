@@ -187,6 +187,10 @@ nav .fa-solid {
         width: 300px; 
         height:200px;
     }
+    .tekst img {
+        width: 500px; 
+        height:300px;
+    }
 }
 
 @media(max-width:880px) {
