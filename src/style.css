@@ -316,6 +316,10 @@ nav .fa-solid {
     .opis{
         height: 100%;
     }
+    .tekst1 img{
+        width: 200px; 
+        height:100px;
+    }
 }
 .gallery img{
     margin-top: 10px;
