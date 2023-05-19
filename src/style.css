@@ -179,6 +179,10 @@ nav .fa-solid {
     .tekst p {
         font-size: 24px;
     }
+    .tekst1 img {
+        width: 300px; ;
+        height:150px;
+    }
 }
 
 @media(max-width:880px) {
@@ -766,13 +770,7 @@ a {
     .tekst p {
         font-size: 15px;
     }
-    .tekst1{
-        float: none;
-        display: none;
-    }
-    .tekst1 img {
-        display: none;
-    }
+    
 
     
 
