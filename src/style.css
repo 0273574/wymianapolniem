@@ -192,6 +192,13 @@ nav .fa-solid {
         height: 30%;
         width: 30%;
     }
+    .tekst {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        vertical-align: center;
+    }
+    
 }
 
 @media(max-width:880px) {
