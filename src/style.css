@@ -704,7 +704,9 @@ a {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
-
+    .text-center p{
+        font-size: 70%;
+    }
     .polityka h3,
     p,
     h1 {
@@ -801,11 +803,7 @@ a {
 
         transform: translateX(-2.1rem);
     }
-    .text-center p {
-        letter-spacing: 1px;
-        font-size: 10px;
-        font-weight: 100;
-    }
+    
 }
 
 .flagi img {
@@ -848,13 +846,6 @@ a {
     margin: 40px;
 }
 
-.text-center p {
-    letter-spacing: 1px;
-    font-size: 20px;
-    font-weight: 500;
-
-    margin-bottom: 80px;
-}
 
 
 
