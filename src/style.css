@@ -176,6 +176,9 @@ nav .fa-solid {
     .tekst1{
         display: none;
     }
+    .tekst p {
+        font-size: 24px;
+    }
 }
 
 @media(max-width:880px) {
