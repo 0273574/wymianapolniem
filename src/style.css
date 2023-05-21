@@ -1125,3 +1125,13 @@ a {
 .tekst1 img {
     border-radius: 15px;
 }
+.navv{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.navv a{
+    text-decoration: none;
+    padding:10px
+}
