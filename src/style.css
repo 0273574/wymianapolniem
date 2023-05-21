@@ -320,7 +320,7 @@ nav .fa-solid {
         height: 80%;
     }
 
-    .galler1 {
+    .galler1, .galler2, .galler3, .galler4, .galler5{
         flex-direction: column;
     }
 
