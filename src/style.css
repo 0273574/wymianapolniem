@@ -1081,6 +1081,7 @@ a {
 }
 
 .gallery-wrapper img {
+    background-size: cover;
     width: 300px;
     height: auto;
     margin-right: 5px;
