@@ -7,7 +7,7 @@ html {
 
 body {
     overflow-x: hidden;
-  }
+}
 
 * {
     scroll-behavior: smooth;
@@ -133,11 +133,12 @@ nav .fa-solid {
     font-size: 80px;
     font-weight: 600;
 }
-@media(max-width:1500px){
-    .tekst1 img{
+
+@media(max-width:1500px) {
+    .tekst1 img {
         display: none;
     }
-    
+
     .nav-links {
         position: absolute;
         background: #D9BE59;
@@ -163,55 +164,65 @@ nav .fa-solid {
         padding: 30px;
 
     }
+
     .text-box p {
         font-size: 40px;
         margin-bottom: 10px;
     }
 
-    
+
 
     .text-box a {
         font-size: 12px;
 
     }
-    .tekst1{
+
+    .tekst1 {
         display: none;
     }
+
     .tekst p {
         font-size: 24px;
     }
+
     .tekst1 img {
-        width: 300px; 
-        height:200px;
+        width: 300px;
+        height: 200px;
     }
+
     .tekst img {
         margin-left: 35%;
         height: 30%;
         width: 30%;
     }
+
     .tekst {
         flex-direction: column;
         text-align: center;
         justify-content: center;
         vertical-align: center;
     }
-.hidden{
-display:none;
-}
-    
+
+    .hidden {
+        display: none;
+    }
+
 }
 
 @media(max-width:880px) {
-    #gallery{
+    #gallery {
         display: none;
     }
+
     .main-text img {
         width: 150px;
         height: 115px;
     }
-    body{
+
+    body {
         overflow-x: hidden;
     }
+
     .main-text {
         margin: 10px;
     }
@@ -236,9 +247,10 @@ display:none;
     }
 
 
-			.hidden{
-display:none;
-}
+    .hidden {
+        display: none;
+    }
+
     .row .placer-col p {
         display: none;
     }
@@ -325,55 +337,69 @@ display:none;
         height: 80%;
     }
 
-    .galler1, .galler2, .galler3, .galler4, .galler5{
+    .galler1,
+    .galler2,
+    .galler3,
+    .galler4,
+    .galler5 {
         flex-direction: column;
     }
 
-    
+
 
     .header1 {
         margin: 0;
     }
-    .opis{
+
+    .opis {
         height: 100%;
     }
-    .tekst1 img{
-        width: 200px; 
-        height:100px;
+
+    .tekst1 img {
+        width: 200px;
+        height: 100px;
     }
 }
-.gallery img{
+
+.gallery img {
     margin-top: 10px;
     border-radius: 15px;
     border: solid 5px #fff;
     box-shadow: 2px 2px 2px 1px rgba(217, 190, 89, 1);
     padding: 15px;
 }
+
 .wraper {
     display: flex;
     flex-direction: column;
 
 }
+
 .galler1 {
     width: 80%;
     margin: 50px auto;
 }
+
 .galler2 {
     width: 80%;
     margin: 50px auto;
 }
+
 .galler3 {
     width: 80%;
     margin: 50px auto;
 }
+
 .galler4 {
     width: 80%;
     margin: 50px auto;
 }
+
 .galler5 {
     width: 80%;
     margin: 50px auto;
 }
+
 .item {
     width: 100%;
 }
@@ -388,7 +414,7 @@ display:none;
     cursor: pointer;
     border-radius: 15px;
     opacity: 1;
-   
+
 }
 
 .text-box a.button:hover {
@@ -489,12 +515,12 @@ footer .nic {
 
 
 .gallery {
-    background: linear-gradient(10deg,#0e1d47 60%, #242D3B );
+    background: linear-gradient(10deg, #0e1d47 60%, #242D3B);
     min-height: 100vh;
     text-align: center;
     padding-top: 50px;
-    
-    
+
+
 }
 
 .thumbnail {
@@ -526,34 +552,34 @@ footer .nic {
     transition: all 0.5s;
     cursor: pointer;
     margin: 36px;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-  }
-  
-  .gallery a{
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.gallery a {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  .gallery a::after {
+}
+
+.gallery a::after {
     content: '»';
     position: absolute;
-    opacity: 0;  
+    opacity: 0;
     top: 14px;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  .gallery a:hover{
+}
+
+.gallery a:hover {
     padding-right: 24px;
-    padding-left:8px;
-  }
-  
-  .gallery a:hover:after {
+    padding-left: 8px;
+}
+
+.gallery a:hover:after {
     opacity: 1;
     right: 10px;
-  }
+}
 
 
 
@@ -582,7 +608,7 @@ h1 {
     margin-top: 50px;
     color: #fff;
     text-align: center;
-    
+
 }
 
 .policy {
@@ -739,16 +765,17 @@ a {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
-    .text-center p{
+    .text-center p {
         font-size: 70%;
     }
+
     .polityka h3,
     p,
     h1 {
         font-size: 10px;
     }
 
-    
+
 
     .footer-distributed .footer-left,
     .footer-distributed .footer-center,
@@ -771,7 +798,11 @@ a {
         font-size: 15px;
 
     }
-    .opis h1{         font-size: 20px;     }
+
+    .opis h1 {
+        font-size: 20px;
+    }
+
     .card {
         height: 180px;
         width: 140px;
@@ -811,9 +842,9 @@ a {
     .tekst p {
         font-size: 15px;
     }
-    
 
-    
+
+
 
     .policy {
         margin: 10px;
@@ -827,8 +858,8 @@ a {
     .gallery-controls {
         width: 70%;
     }
-    
-    
+
+
 
 
 }
@@ -838,16 +869,18 @@ a {
 
         transform: translateX(-2.1rem);
     }
-    
+
 }
 
 .flagi img {
     border-radius: 10px;
     transition: transform 0.3s;
 }
-.flagi img:hover{
+
+.flagi img:hover {
     transform: scale(1.15);
 }
+
 .text-center p {
     letter-spacing: 1px;
     font-size: 15px;
@@ -855,6 +888,7 @@ a {
 
 
 }
+
 .backgroundd {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(background.jpg);
 }
@@ -927,9 +961,11 @@ a {
         transform: rotate(1turn);
     }
 }
-.glowna h1{
+
+.glowna h1 {
     font-size: 25px;
 }
+
 .wrapper {
     display: flex;
     width: 100%;
@@ -1080,11 +1116,11 @@ a {
 
 .tekst {
     display: flex;
-    
+
     flex-direction: wrap;
     text-align: center;
     margin: 20px;
-   
+
 }
 
 .tekst p {
@@ -1130,34 +1166,41 @@ a {
 .tekst1 img {
     border-radius: 15px;
 }
-.navv{
+
+.navv {
     display: flex;
-    	border-radius:15px;
-				justify-content:space-around;		
-				background:gray;
+    border-radius: 15px;
+    justify-content: space-around;
+    background: gray;
 
 }
-.navv a{
-			
-   text-decoration: none;
-			color:#000;
-			border-radius:15px;
-			background:#fff;
-			text-allign:center;
+
+.navv a {
+
+    text-decoration: none;
+    color: #000;
+    border-radius: 15px;
+    background: #fff;
+    text-align: center;
 }
-.navv a:hover{
-		background:#000;
-		color:#fff;
-	}
-.navv a.active{
-color:#fff;}
-.reveal{
-position:relative;
-transfrom:translateY(150px);
-opacity:0;
-transistion: all-in 2.3s ease;
+
+.navv a:hover {
+    background: #000;
+    color: #fff;
 }
-.reveal.active{
-opacity:1;
-transform:translateY(0px);
+
+.navv a.active {
+    color: #fff;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all-in 2.3s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0px);
 }
