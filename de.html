@@ -192,7 +192,7 @@
     </section>
 
     <section class="opis reveal" id="gliwice">
-        <h1 ><b>Powitanie<br>Willa Caro, gra terenowa</b> - Dzień 1</h1>
+        <h1><b>Powitanie<br>Willa Caro, gra terenowa</b> - Dzień 1</h1>
         <div class="tekst">
             <img src="images/willacaro.jpg" width="500px" height="300px">
             <p>Pierwszy dzień opierał się na zapoznaniu się z dziewczynami, które nas odwiedziły. Spotkaliśmy się
@@ -222,7 +222,7 @@
     </section>
 
     <section class="opis reveal" id="wroclaw">
-        <h1 ><b>Wrocław</b> - Dzień 2</h1>
+        <h1><b>Wrocław</b> - Dzień 2</h1>
         <div class="tekst ">
             <img src="/images/dzien2/348356153_936875570920918_7820169987513787389_n.jpg" width="500px" height="300px">
             <p>Dzień ten jak każdy inny rozpoczął się od naszego spotkania z grupą niemiecką. Nasz wyjazd był
@@ -257,7 +257,7 @@
     </section>
 
     <section class="opis reveal" id="auschwitz">
-        <h1 ><b>Auschwitz I</b> - Dzień 3</h1>
+        <h1><b>Auschwitz I</b> - Dzień 3</h1>
         <div class="tekst">
             <img src="images/dzien3/346153840_263060246111559_7419272081145354428_n.jpg" width="500px" height="300px">
             <p>To już 3 dzień naszej przygody z niemkami. Dzisiaj razem z nimi wybraliśmy się do miejsca znanego z
@@ -290,7 +290,7 @@
 
     </section>
     <section class="opis reveal" id="katowice">
-        <h1 >Auschwitz II, Katowice - Dzień 4</h1>
+        <h1>Auschwitz II, Katowice - Dzień 4</h1>
 
 
         <div class="tekst ">
@@ -332,7 +332,7 @@
 
 
     <section class="opis reveal" id="krakow">
-        <h1 ><b>Kraków</b> - Dzień 5</h1>
+        <h1><b>Kraków</b> - Dzień 5</h1>
         <div class="tekst">
             <img src="images/kazimierz.jpeg" width="500px" height="300px">
 
@@ -357,7 +357,7 @@
     </section>
 
     <section class="opis reveal" id="strona">
-        <h1 ><b>Prace nad projetkem, impreza pożegnalna w parku śląskim</b> - Dzień 6</h1>
+        <h1><b>Prace nad projetkem, impreza pożegnalna w parku śląskim</b> - Dzień 6</h1>
         <div class="tekst ">
             <img src="images/praca.webp" width="500px" height="300px">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quibusdam sapiente eveniet. Iure distinctio
@@ -424,7 +424,25 @@
             });
         });
     </script>
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
 
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+    </script>
 
 
 
