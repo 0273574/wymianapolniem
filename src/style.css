@@ -1196,14 +1196,14 @@ a {
     color: #fff;
 }
 
-.reveal {
+.reveal{
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: all-in 2.3s ease;
-}
-
-.reveal.active {
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
     opacity: 1;
-    transform: translateY(0px);
-}
+  }
