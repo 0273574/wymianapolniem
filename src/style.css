@@ -1127,19 +1127,17 @@ a {
 }
 .navv{
     display: flex;
-    justify-content: space-between;
-				border-radius:15px;
+    	border-radius:15px;
 
 
 }
 .navv a{
+			padding:5px;
    text-decoration: none;
 			color:#000;
 			border-radius:15px;
 			background:#fff;
 			text-allign:center;
-			height:20px;
-
 }
 .navv a:hover{
 		background:#000;
