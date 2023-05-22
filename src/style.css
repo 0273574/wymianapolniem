@@ -1128,10 +1128,20 @@ a {
 .navv{
     display: flex;
     justify-content: space-between;
+				background:#00000;
 
 
 }
 .navv a{
-    text-decoration: none;
-    padding: 10px;
+   text-decoration: none;
+   padding: 10px;
+			color:#fff;
+			border-radius:15px;
+			background:#0000		
+
 }
+.navv a:hover{
+		background:#fff;
+		color:#00000;
+	}
+	
