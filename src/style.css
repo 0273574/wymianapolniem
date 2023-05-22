@@ -1144,4 +1144,13 @@ a {
 		background:#fff;
 		color:#00000;
 	}
-	
+.reveal{
+position:relative;
+transfrom:translateY(150px);
+opacity:0;
+transistion: all-in 2.3s ease;
+}
+.reveal.active{
+opacity:1;
+transform:translateY(0px);
+}
