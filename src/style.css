@@ -1078,7 +1078,7 @@ a {
 .gallery-wrapper {
     display: flex;
     transition: transform 0.5s ease;
-    background-size: cover;
+    
 
     }
 
