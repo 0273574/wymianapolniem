@@ -1142,8 +1142,10 @@ a {
 }
 .navv a:hover{
 		background:#000;
-		color:#ff;
+		color:#fff;
 	}
+.navv a.active{
+color:#fff;}
 .reveal{
 position:relative;
 transfrom:translateY(150px);
