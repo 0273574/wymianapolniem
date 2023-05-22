@@ -195,6 +195,9 @@ nav .fa-solid {
         justify-content: center;
         vertical-align: center;
     }
+.hidden{
+display:none;
+}
     
 }
 
@@ -233,7 +236,9 @@ nav .fa-solid {
     }
 
 
-
+			.hidden{
+display:none;
+}
     .row .placer-col p {
         display: none;
     }
