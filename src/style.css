@@ -1128,21 +1128,21 @@ a {
 .navv{
     display: flex;
     justify-content: space-between;
-				background:#00000;
+				border-radius:15px;
 
 
 }
 .navv a{
    text-decoration: none;
    padding: 10px;
-			color:#fff;
+			color:#000;
 			border-radius:15px;
-			background:#0000		
+			background:#fff		
 
 }
 .navv a:hover{
-		background:#fff;
-		color:#00000;
+		background:#000;
+		color:#ff;
 	}
 .reveal{
 position:relative;
