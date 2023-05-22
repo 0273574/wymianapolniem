@@ -1169,7 +1169,7 @@ a {
 
 .navv {
     display: flex;
-    border-radius: 15px;
+    
     justify-content: space-around;
     background: gray;
 
