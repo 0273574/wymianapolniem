@@ -2,3 +2,7 @@
 .galeriaa img:hover{
     opacity:99;
 }
+.zdjecia{
+    display: flex;
+    
+}
