@@ -1128,11 +1128,12 @@ a {
 .navv{
     display: flex;
     	border-radius:15px;
-
+				justify-content:space-beetwen;		
+				background:gray;
 
 }
 .navv a{
-			padding:5px;
+			
    text-decoration: none;
 			color:#000;
 			border-radius:15px;
