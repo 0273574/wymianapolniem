@@ -1114,7 +1114,8 @@ a {
 
 .tekst img {
     border-radius: 5px;
-    margin-top: 20px
+    margin-top: 20px;
+    object-fit: cover;
 }
 
 .tekst {
@@ -1168,6 +1169,7 @@ a {
 
 .tekst1 img {
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .navv {
