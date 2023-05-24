@@ -178,9 +178,11 @@
     
     </div>
   </div>
-
+  <div class="dzien4" id="dzien4">
+    <div class="galler5"></div>
+  </div>
   <div class="smieszne" id="funny">
-    <div class="galler5">
+    <div class="galler6">
       <a href="/images/funny/346104073_202115288898474_8743196364554176547_n.jpg" data-lightbox="models"
         data-title="opis"><img class="item" src="/images/funny/346104073_202115288898474_8743196364554176547_n.jpg"
           alt=""></a>
@@ -330,6 +332,23 @@
   <script>
     const msnry5 = new Macy({
       container: '.galler5',
+      mobileFirst: true,
+      columns: 1,
+      breakAt: {
+        400: 2,
+        700: 3,
+        1100: 4,
+      },
+      margin: {
+        x: 20,
+        y: 20,
+      }
+    })
+    /*https://codepen.io/helloroman/pen/YzKZpOv*/
+  </script>
+  <script>
+    const msnry6 = new Macy({
+      container: '.galler6',
       mobileFirst: true,
       columns: 1,
       breakAt: {
