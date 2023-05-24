@@ -481,34 +481,17 @@
         window.addEventListener("scroll", reveal);
     </script>
     <script>
-        // Zablokowane wartości graniczne
-var minX = 0; // Minimalna wartość x
-var maxX = 500; // Maksymalna wartość x
-
-// Pobierz element strony
-var page = document.getElementById('page');
-
-// Początkowe współrzędne x
-var startX;
-
-// Zaczynamy przesuwanie
-page.addEventListener('touchstart', function(event) {
-  startX = event.touches[0].pageX;
-});
-
-// Przesuwamy palcem
-page.addEventListener('touchmove', function(event) {
-  var currentX = event.touches[0].pageX;
-  var deltaX = currentX - startX;
-
-  // Sprawdzamy, czy przesunięcie mieści się w ograniczeniach
-  if ((page.offsetLeft + deltaX) >= minX && (page.offsetLeft + deltaX) <= maxX) {
-    page.style.left = (page.offsetLeft + deltaX) + 'px';
+    document.addEventListener('touchmove', function(event) {
+  var x = event.touches[0].clientX;
+  var y = event.touches[0].clientY;
+  
+  var deltaX = Math.abs(event.touches[0].clientX - event.touches[0].pageX);
+  var deltaY = Math.abs(event.touches[0].clientY - event.touches[0].pageY);
+  
+  if (deltaX > deltaY) {
+    event.preventDefault();
   }
-
-  // Zatrzymujemy domyślne działanie przewijania strony
-  event.preventDefault();
-});
+}, { passive: false });
 
     </script>
 
