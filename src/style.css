@@ -341,7 +341,8 @@ nav .fa-solid {
     .galler2,
     .galler3,
     .galler4,
-    .galler5 {
+    .galler5,
+    .galler6 {
         flex-direction: column;
     }
 
@@ -396,6 +397,10 @@ nav .fa-solid {
 }
 
 .galler5 {
+    width: 80%;
+    margin: 50px auto;
+}
+.galler6 {
     width: 80%;
     margin: 50px auto;
 }
