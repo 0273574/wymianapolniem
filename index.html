@@ -13,7 +13,7 @@
 
 <body>
 
-
+    <div class="page">
     <div class="header">
 
         <nav>
@@ -377,7 +377,7 @@
 
     </footer>
 
-    <div class="loader"></div>
+    <div class="loader"></div></div>
 
     <script>
         window.addEventListener("load", () => {
@@ -479,6 +479,37 @@
         }
 
         window.addEventListener("scroll", reveal);
+    </script>
+    <script>
+        // Zablokowane wartości graniczne
+var minX = 0; // Minimalna wartość x
+var maxX = 500; // Maksymalna wartość x
+
+// Pobierz element strony
+var page = document.getElementById('page');
+
+// Początkowe współrzędne x
+var startX;
+
+// Zaczynamy przesuwanie
+page.addEventListener('touchstart', function(event) {
+  startX = event.touches[0].pageX;
+});
+
+// Przesuwamy palcem
+page.addEventListener('touchmove', function(event) {
+  var currentX = event.touches[0].pageX;
+  var deltaX = currentX - startX;
+
+  // Sprawdzamy, czy przesunięcie mieści się w ograniczeniach
+  if ((page.offsetLeft + deltaX) >= minX && (page.offsetLeft + deltaX) <= maxX) {
+    page.style.left = (page.offsetLeft + deltaX) + 'px';
+  }
+
+  // Zatrzymujemy domyślne działanie przewijania strony
+  event.preventDefault();
+});
+
     </script>
 
 </body>
