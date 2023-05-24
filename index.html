@@ -480,20 +480,7 @@
 
         window.addEventListener("scroll", reveal);
     </script>
-    <script>
-    document.addEventListener('touchmove', function(event) {
-  var x = event.touches[0].clientX;
-  var y = event.touches[0].clientY;
-  
-  var deltaX = Math.abs(event.touches[0].clientX - event.touches[0].pageX);
-  var deltaY = Math.abs(event.touches[0].clientY - event.touches[0].pageY);
-  
-  if (deltaX > deltaY) {
-    event.preventDefault();
-  }
-}, { passive: false });
-
-    </script>
+    
 
 </body>
 
