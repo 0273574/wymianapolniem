@@ -1096,6 +1096,7 @@ a {
     overflow: hidden;
     height: 400px;
     margin-top: 0px;
+    background-color: gray;
 }
 
 .gallery-wrapper {
