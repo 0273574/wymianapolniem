@@ -371,7 +371,9 @@ nav .fa-solid {
     padding: 15px;
     object-fit: cover;
 }
-
+.gallery img:nth-child(1){
+    object-fit: none;
+}
 .wraper {
     display: flex;
     flex-direction: column;
