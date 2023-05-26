@@ -620,7 +620,9 @@ h1 {
     text-align: center;
 
 }
-
+.galler-text img{
+    object-fit: cover;
+}
 .policy {
     margin-top: 0;
     margin: 30px;
