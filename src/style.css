@@ -1104,6 +1104,7 @@ a {
     }
 
 .gallery-wrapper img {
+    border-radius: 15px;
     object-fit: scale-down;
     width: 300px;
     height: auto;
