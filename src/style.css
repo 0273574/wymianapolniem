@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background: black;
+    background: #25292E;
     overflow-x: hidden;
     color: #fff;
 }
@@ -931,7 +931,7 @@ a {
 
 .main-text p {
     margin: 0;
-    color: black;
+    
 }
 
 
