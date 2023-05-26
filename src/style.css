@@ -369,11 +369,9 @@ nav .fa-solid {
     border: solid 5px #fff;
     box-shadow: 2px 2px 2px 1px rgba(217, 190, 89, 1);
     padding: 15px;
-    object-fit: cover;
+    object-fit: scale-down;
 }
-.fill{
-    object-fit:fill;
-}
+
 .wraper {
     display: flex;
     flex-direction: column;
