@@ -921,13 +921,7 @@ a {
     color: black;
 }
 
-.main-text img {
-    border-radius: 10px;
-    box-shadow: inset;
-    height: 230px;
-    width: 300px;
-    margin: 15px;
-}
+
 
 .text-center {
     text-align: center;
@@ -1097,8 +1091,6 @@ a {
 .gallery-wrapper {
     display: flex;
     transition: transform 0.5s ease;
-    
-
     }
 
 .gallery-wrapper img {
