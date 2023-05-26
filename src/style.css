@@ -371,7 +371,9 @@ nav .fa-solid {
     padding: 15px;
     object-fit: scale-down;
 }
-
+.fill img{
+    object-fit: fill;
+}
 .wraper {
     display: flex;
     flex-direction: column;
