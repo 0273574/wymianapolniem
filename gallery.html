@@ -32,28 +32,28 @@
     </nav>
   </div>
   <div class="navv">
-    <a href="#warsztaty">
+    <a href="#warsztaty" id="galler1">
       <p>Warsztaty</p>
     </a>
-    <a href="#dzien1">
+    <a href="#dzien1" id="galler2">
       <p>Dzień 1</p>
     </a>
-    <a href="#dzien2">
+    <a href="#dzien2" id="galler3">
       <p>Dzień 2</p>
     </a>
-    <a href="#dzien3">
+    <a href="#dzien3" id="galler4">
       <p>Dzień 3</p>
     </a>
-    <a href="#dzien4">
+    <a href="#dzien4" id="galler5">
       <p>Dzień 4</p>
     </a>
-    <a href="#dzien5" class="hidden">
+    <a href="#dzien5" id="galler6">
       <p>Dzień 5</p>
     </a>
-    <a href="#dzien6" class="hidden">
+    <a href="#dzien6" id="galler7">
       <p>Dzień 6</p>
     </a>
-    <a href="#funny">
+    <a href="#funny" id="galler8">
       <p>Funny</p>
     </a>
   </div>
@@ -668,6 +668,29 @@
     }
   </script>
   <script src="src/lightbox-plus-jquery.js"></script>
+  <script>
+    // Pobierz wszystkie przyciski galerii
+    const buttons = document.querySelectorAll('button[id^="gallery"]');
+  
+    // Dodaj obsługę zdarzenia onclick dla każdego przycisku
+    buttons.forEach((button) => {
+      button.onclick = () => {
+        // Pobierz numer galerii z id przycisku
+        const galleryNumber = button.id.replace('gallery', '');
+  
+        // Ukryj wszystkie galerie
+        const galleries = document.querySelectorAll('.gallery');
+        galleries.forEach((gallery) => {
+          gallery.style.display = 'none'; 
+        });
+  
+        // Pokaż tylko wybraną galerię
+        const selectedGallery = document.getElementById(`gallery${galleryNumber}-content`);
+        selectedGallery.style.display = 'block';
+      };
+    });
+  </script>
+  
 
 </body>
 
