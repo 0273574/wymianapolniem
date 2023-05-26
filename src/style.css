@@ -617,6 +617,7 @@ footer .nic {
     min-height: 100vh;
 }
 .flagi img {
+    margin-top: 20px;
     height: 230px;
     width: 300px;
     border-radius: 10px;
