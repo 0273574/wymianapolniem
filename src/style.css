@@ -1102,7 +1102,7 @@ a {
     }
 
 .gallery-wrapper img {
-    object-fit: contain;
+    object-fit: scale-down;
     width: 300px;
     height: auto;
     margin-right: 5px;
