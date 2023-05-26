@@ -6,8 +6,9 @@ html {
 }
 
 body {
-    background: gray;
+    background: black;
     overflow-x: hidden;
+    color: #fff;
 }
 
 * {
