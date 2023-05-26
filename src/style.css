@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    background: gray;
     overflow-x: hidden;
 }
 
@@ -1094,11 +1095,8 @@ a {
 .gallery-container {
     position: relative;
     overflow: hidden;
-    height: 600px;
+    height: 400px;
     margin-top: 0px;
-    background-color: gray;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .gallery-wrapper {
