@@ -371,7 +371,7 @@ nav .fa-solid {
     padding: 15px;
     object-fit: cover;
 }
-.gallery img:nth-child(n + 1){
+.fill{
     object-fit:fill;
 }
 .wraper {
