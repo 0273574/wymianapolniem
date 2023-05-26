@@ -1094,9 +1094,11 @@ a {
 .gallery-container {
     position: relative;
     overflow: hidden;
-    height: 400px;
+    height: 600px;
     margin-top: 0px;
     background-color: gray;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .gallery-wrapper {
