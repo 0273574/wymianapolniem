@@ -1108,7 +1108,7 @@ a {
 
 .gallery-wrapper img {
     border-radius: 15px;
-    object-fit: scale-down;
+    object-fit: contain;
     margin-right: 5px;
     margin-left: 5px;
 }
