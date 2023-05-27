@@ -137,6 +137,9 @@ nav .fa-solid {
 }
 
 @media(max-width:1500px) {
+    .navv{
+        display: none;
+    }
     .tekst1 img {
         display: none;
     }
