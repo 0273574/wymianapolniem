@@ -805,10 +805,10 @@ a {
     }
 
     .polityka h3,
-    p,
-    h1 {
+    p {
         font-size: 10px;
     }
+    h1{font-size: 15px;}
 
 
 
