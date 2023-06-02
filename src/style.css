@@ -716,8 +716,12 @@ h1 {
 
 .footer-distributed .footer-center {
     width: 35%;
-}
 
+}
+.footer-distributed .footer-center img{
+    height: 500px;
+    width: 400px;
+}
 .footer-distributed .footer-center i {
     background-color: #33383b;
     color: #ffffff;
