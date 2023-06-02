@@ -719,8 +719,7 @@ h1 {
 
 }
 .footer-distributed .stopka img{
-    height: 300px;
-    width: 15%;
+    font-size: calc(.875rem + .125 * ((100vw - 22.5rem) / 21.25))
 }
 .footer-distributed .footer-center i {
     background-color: #33383b;
