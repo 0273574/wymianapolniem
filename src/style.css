@@ -218,6 +218,10 @@ nav .fa-solid {
     .hidden {
         display: none;
     }
+    .policy {
+        margin: 10px;
+        margin-bottom: 0;
+    }
 
 }
 
