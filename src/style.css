@@ -43,7 +43,7 @@ nav {
 
 nav img {
     width: 310px;
-    
+    border-radius: 15px;
 }
 
 .nav-links {
