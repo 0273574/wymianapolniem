@@ -45,9 +45,7 @@ nav img {
     width: 310px;
     
 }
-nav img:nth-child(2){
-    border-radius: 15px;
-}
+
 .nav-links {
     flex: 1;
     text-align: right;
