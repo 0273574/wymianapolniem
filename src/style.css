@@ -1254,7 +1254,7 @@ a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     padding: 20px;
-    margin: 20px;
+    margin: 60px;
     
   }
   .kartka {
@@ -1263,6 +1263,7 @@ background-repeat: repeat;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Dodaje subtelny cień */
 border: 1px solid #ccc; /* Dodaje ramkę */
 color: black;
+padding: 20px;
 }
 
   /* Stylizacja tytułu */
