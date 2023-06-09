@@ -1257,7 +1257,7 @@ a {
     
   }
   .kartka {
-background-image: url('tlo.jpg');
+background-image: url('/images/tlo.jpg');
 background-repeat: repeat;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Dodaje subtelny cień */
 border: 1px solid #ccc; /* Dodaje ramkę */
