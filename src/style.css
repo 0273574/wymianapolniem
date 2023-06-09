@@ -1277,6 +1277,8 @@ padding: 20px;
   .tresc {
     font-size: 16px;
     line-height: 1.5;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   
   /* Stylizacja daty */
