@@ -1246,3 +1246,38 @@ a {
     transform: translateY(0);
     opacity: 1;
   }
+  /* Stylizacja kartki */
+  .kartka {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    
+  }
+  .kartka {
+background-image: url('tlo.jpg');
+background-repeat: repeat;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Dodaje subtelny cień */
+border: 1px solid #ccc; /* Dodaje ramkę */
+}
+
+  /* Stylizacja tytułu */
+  .tytul {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Stylizacja treści */
+  .tresc {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Stylizacja daty */
+  .data {
+    font-size: 14px;
+    color: #888;
+  }
