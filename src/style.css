@@ -1070,7 +1070,7 @@ a {
 
 .card:hover .info {
     opacity: 1;
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
 
 .card .info h1 {
