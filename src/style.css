@@ -1286,3 +1286,8 @@ padding: 20px;
     font-size: 14px;
     color: #888;
   }
+  .filmik{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
